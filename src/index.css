@@ -262,6 +262,8 @@ main {
   min-height: 100vh;
   /* using flex because of better browser support */
   display: flex;
+  flex-direction: column;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
 }
